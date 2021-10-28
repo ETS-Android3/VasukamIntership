@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vasukam Internship</string>
+    <string name="login"><u>Log in</u></string>
+    <string name="forgetPassword"><u>Forget Password</u></string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="resend"><u>Resend OTP?</u></string>
+</resources>

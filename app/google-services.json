@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "974263180873",
+    "project_id": "vasukam-proto",
+    "storage_bucket": "vasukam-proto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974263180873:android:124c9f430e15a2a75ee998",
+        "android_client_info": {
+          "package_name": "com.saggy.vasukaminternship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974263180873-ft12didogqhidmok9d1p7g6p5imnpftj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saggy.vasukaminternship",
+            "certificate_hash": "88d26a7b89a47843f6d73a62f6e07b15c39ca5a4"
+          }
+        },
+        {
+          "client_id": "974263180873-50ed3brg01ji1jr7mv1k7fu9or6viass.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpAcr0GkUSQJjIRFvC2RMZKgxRJ54O9po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974263180873-50ed3brg01ji1jr7mv1k7fu9or6viass.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

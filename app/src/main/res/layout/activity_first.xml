@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Activity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="197dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Welcome to Vasukam!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="495dp"
+        android:id="@+id/dots">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/v1"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/white_slider_dot"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/v2"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/light_grey_slider_dot"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/v3"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/light_grey_slider_dot"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/v4"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/light_grey_slider_dot"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/v5"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/light_grey_slider_dot"/>
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:letterSpacing="0.02"
+        android:fontFamily="@font/poppins_medium"
+        android:background="@drawable/white_round_login"
+        android:gravity="center"
+        android:text="Sign up"
+        android:id="@+id/signup"
+        android:layout_marginTop="22dp"
+        android:layout_below="@id/dots"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginTop="20dp"
+        android:text="Log in"
+        android:layout_below="@+id/signup"
+        android:id="@+id/login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/white_round_login"
+        android:letterSpacing="0.02"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"/>
+
+</RelativeLayout>
